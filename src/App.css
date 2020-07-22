@@ -1,0 +1,102 @@
+@import "http://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+.body {
+  height: 900px;
+}
+.card {
+  border-radius: 2%;
+
+  /* Add shadows to create the "card" effect */
+  position: relative;
+  align-items: center;
+  margin-left: 12em;
+  margin-right: 15em;
+  margin-top: 15em;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  position: absolute;
+  height: 400px;
+  width: 1000px;
+}
+.aboutMe {
+  padding-top: 45em;
+  margin-left: 40em;
+  font-weight: 900;
+  color: White;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.btn:hover {
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+.btn {
+  font-size: 11px;
+  font-weight: 1000;
+  height: 46px;
+  min-width: 88px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 2px;
+  background: #2196f3;
+  color: #fff;
+  outline: 0;
+  text-transform: uppercase;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  width: 140px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-left: 75em;
+  margin-bottom: 2em;
+  margin-top: 7em;
+}
+.btn:hover {
+  background: #208de6;
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+.btn:active {
+  background: #196cb1;
+}
+.box {
+  display: inline-block;
+  transform: skew(0deg, -10deg) translateY(-180px);
+}
+.quotes {
+  font-family: lobster;
+  font-size: 30px;
+  margin-left: 3em;
+}
+.authors {
+  margin-left: 50em;
+  margin-top: 3em;
+}
+.logo {
+  height: 30px;
+  margin-left: 1em;
+}
+
+.text {
+  font-size: 50px;
+  width: 50px;
+  align-self: center;
+  margin-top: -0.1em;
+  margin-left: 8em;
+}
+.logo {
+  -webkit-animation: rotation 10s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
